@@ -9,6 +9,7 @@ function expandInfo(elem) {
 	} else {
 		elem.style.display = "none"; 
 	}
+	console.log("Test"); 
 }
 
 projectsArray.forEach(function (element) {

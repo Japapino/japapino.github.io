@@ -132,6 +132,10 @@ img {
     border-radius: 0.42rem;
 }
 
+.content {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #skillsList{
     padding: 0.5rem;
     font-size: 2rem;

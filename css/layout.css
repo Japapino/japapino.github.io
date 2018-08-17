@@ -27,9 +27,7 @@ nav ul{
 }
 main{
 	display: grid;
-
 }
-
 footer{
 	grid-column: 1/-1;
 	display:flex;
@@ -52,7 +50,10 @@ footer ul{
 	height: 15rem;
 	padding: 1rem;
 }
-
+.experiences{
+	display: flex;
+	justify-content: space-around;
+}
 #work-history{
 	display: flex;
 	justify-content: space-around;
@@ -62,25 +63,9 @@ footer ul{
 	display: flex;
 	justify-content: space-around; 
 }
-
 .experience {
 	display: grid;
-	
 }
-.skills-list {
-	display: grid;
-	justify-content: center;
-}
-.skills-list ul{
-	display:flex;
-	justify-content: space-between;
-
-}
-
-.skills-list ul li{
-	margin: 0px 10px;
-}
-
 .body{
 	display: flex;
 	padding: 3rem ;
@@ -205,10 +190,8 @@ aside{
         transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
     }
     .modal-content {
-
     	display: flex;
     	flex-direction: column;
-
         position: absolute;
         top: 50%;
         left: 50%;

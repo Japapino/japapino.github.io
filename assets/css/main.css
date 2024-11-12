@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.workExp-content {
+	height: 100%;
+}
+
 /* Basic */
 
 	html {
@@ -1630,6 +1634,11 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+		}
+
+		.duck {
+			max-height: 255px;
+			width: auto;
 		}
 
 		.image.fit {

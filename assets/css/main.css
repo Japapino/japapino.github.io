@@ -1636,9 +1636,22 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.duck {
-			max-height: 255px;
-			width: auto;
+		.duck-container {
+			position: relative;
+			width: 100% !important; 
+			padding-top: 66.67%; /* 3:2 aspect ratio (2/3 * 100) */
+			overflow: hidden;
+			margin: 0.5em 0 2em 0;
+			
+		}
+
+		.duck-container img {
+			position: absolute !important;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 
 		.image.fit {
